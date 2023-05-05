@@ -92,6 +92,11 @@ mark.highlight {
   color: brown;
 }
 
+.card-img-top {
+  height: 100%;
+  object-fit: cover;
+}
+
 @media (max-width: 768px) {
   .card {
     width: 100%;
