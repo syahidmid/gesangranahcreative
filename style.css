@@ -1,0 +1,142 @@
+/* Navbar */
+.navbar {
+  height: 100px; /* mengatur tinggi navbar sebesar 80 piksel */
+}
+
+.bg-image {
+  background-image: url("../dev/img/fun-agency.png");
+  height: 600px;
+}
+/* Typography */
+.display-1 {
+  font-size: 3.5rem; /* Mengubah ukuran font */
+  /* Tambahkan lebih banyak aturan CSS di sini sesuai kebutuhan */
+}
+
+.display-2 {
+  font-size: 30px;
+}
+.lead {
+  font-size: 1.2rem;
+}
+
+#hero-section h1 {
+  line-height: 1.5;
+  letter-spacing: -3px;
+  padding-top: 10rem;
+}
+
+/* Memberikan sorotan pada teks yang ditandai */
+mark.highlight {
+  background: yellow; /* ganti dengan warna yang Anda inginkan */
+  animation: highlight 2s infinite; /* animasi */
+}
+
+/* Keyframes untuk animasi */
+@keyframes highlight {
+  0% {
+    background: yellow;
+  } /* ganti dengan warna awal */
+  50% {
+    background: orange;
+  } /* ganti dengan warna peralihan */
+  100% {
+    background: yellow;
+  } /* ganti dengan warna akhir */
+}
+
+/* Our Clients */
+.our-clients {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.clients-logo-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.clients-logo {
+  max-width: 70%;
+  height: auto;
+  padding-top: 2rem;
+}
+
+.clients-logo:hover {
+  transform: scale(1.2);
+  transform-origin: center center;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Our Teams */
+.card-title {
+  color: brown;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 18rem;
+  }
+}
+
+/* Custome Color */
+.bg-green {
+  background-color: rgba(0, 121, 107, 1); /* Warna hijau tua dalam format rgba() */
+}
+
+/* Our Values  */
+#values-one:hover {
+  background-image: url("../dev/img/values/client-img-2.jpg");
+  background-color: rgba(0, 255, 0, 0.5);
+  background-blend-mode: multiply;
+}
+
+#values-two:hover {
+  background-image: url("../dev/img/values/client-img-2.jpg");
+  background-color: rgba(0, 123, 255, 0.5); /* Warna biru primary dengan transparansi 50% */
+  background-blend-mode: multiply;
+}
+
+#values-three:hover {
+  background-image: url("../dev/img/values/client-img-2.jpg");
+  background-color: rgba(0, 123, 255, 0.5); /* Warna biru primary dengan transparansi 50% */
+  background-blend-mode: multiply;
+}
+
+#values-four:hover {
+  background-image: url("https://dayanaraandalan.com/dev/img/values/client-img-2.jpg");
+  background-color: rgba(0, 123, 255, 0.5); /* Warna biru primary dengan transparansi 50% */
+  background-blend-mode: multiply;
+}
+
+#values-five:hover {
+  background-image: url("https://dayanaraandalan.com/dev/img/values/client-img-1.jpg");
+  background-color: rgba(0, 255, 0, 0.5);
+  background-blend-mode: multiply;
+}
+
+#values-six:hover {
+  background-image: url("https://dayanaraandalan.com/dev/img/values/client-img-1.jpg");
+  background-color: rgba(0, 255, 0, 0.5);
+  background-blend-mode: multiply;
+}
+
+.container-values-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+/* Our Communities  */
+
+#communities-img img {
+  border-radius: 20px;
+  max-width: 80%;
+}
