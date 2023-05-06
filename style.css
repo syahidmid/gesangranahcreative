@@ -29,7 +29,9 @@
 
 /* NAVBAR CSS*/
 .navbar {
-  height: 100px; /* mengatur tinggi navbar sebesar 80 piksel */
+  display: flex;
+  padding: 20px 5;
+  justify-content: space-around;
 }
 
 .nav-link {
