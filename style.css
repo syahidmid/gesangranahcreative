@@ -22,6 +22,11 @@
   padding-top: 10rem;
 }
 
+.bg-image {
+  background-image: url("../dev/img/fun-agency.png");
+  height: 600px;
+}
+
 /* NAVBAR CSS*/
 .navbar {
   height: 100px; /* mengatur tinggi navbar sebesar 80 piksel */
@@ -38,12 +43,6 @@
   color: brown;
 }
 
-/* End of Navbar CSS */
-
-.bg-image {
-  background-image: url("../dev/img/fun-agency.png");
-  height: 600px;
-}
 /* Typography */
 .display-1 {
   font-size: 3.5rem; /* Mengubah ukuran font */
