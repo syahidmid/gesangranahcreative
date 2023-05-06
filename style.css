@@ -22,10 +22,23 @@
   padding-top: 10rem;
 }
 
-/* NAVBAR */
+/* NAVBAR CSS*/
 .navbar {
   height: 100px; /* mengatur tinggi navbar sebesar 80 piksel */
 }
+
+.nav-link {
+  border-bottom: 2px solid transparent; /* Set border bottom menjadi transparan */
+  transition: border-bottom 0.3s ease-in-out; /* Tambahkan transition untuk border-bottom */
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #fe8c21; /* Border bottom sebagai ganti underline */
+  padding-bottom: 5px; /* Jarak underline dari teks */
+  color: brown;
+}
+
+/* End of Navbar CSS */
 
 .bg-image {
   background-image: url("../dev/img/fun-agency.png");
@@ -119,6 +132,14 @@ mark.highlight {
 
 .bg-carrot-orange {
   background-color: #fe8c21;
+}
+
+.bg-black-coal {
+  background-color: #101010;
+}
+
+.bg-dark {
+  background-color: #101010;
 }
 /* Our Values  */
 #values-one:hover {
